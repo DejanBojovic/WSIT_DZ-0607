@@ -1,0 +1,49 @@
+table, tr, td, th {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-all td:nth-child(even),
+.table-all th:nth-child(even) {
+    background-color: #003385;
+}
+
+.table-all td:nth-child(odd),
+.table-all th:nth-child(odd) {
+    background-color: #4287f5;
+}
+
+.table-all {
+    margin-bottom: 30px
+}
+
+.input {
+    margin-bottom: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.bottom-div {
+    margin-top: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.black {
+    color: black;
+}
+
+.v {
+    visibility: visible;
+}
+
+.nv {
+    visibility: hidden;
+}
